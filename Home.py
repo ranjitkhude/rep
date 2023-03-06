@@ -2,6 +2,15 @@ import streamlit as st
 st.set_page_config(
     page_title="Price Predictor",
     page_icon="💻",
+    page_bg_img = f"""
+<style>
+[data-testid="stAppViewContainer"] > .main {{
+background-image: url("https://unsplash.com/photos/9Eheu3sIgrM");
+background-size: 180%;
+background-position: top left;
+background-repeat: no-repeat;
+background-attachment: local;
+}}
 )
 st.write("# Welcome to Laptop Price Predictor 👨‍💻")
 st.markdown(
